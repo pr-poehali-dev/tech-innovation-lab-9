@@ -1,3 +1,7 @@
-# tech-innovation-lab-9
+# NeuralCode - Платформа разработки на базе ИИ
 
-Initial repository setup for pr-poehali-dev/tech-innovation-lab-9
+![Preview](https://cdn.poehali.dev/templates/pointer-ai-ru/preview-ru.jpg)
+
+Современный лендинг для ИИ-платформы разработки. Включает hero-секцию с анимированным интерфейсом, превью дашборда, социальное доказательство с логотипами компаний, bento-сетку с фичами, секцию с крупным отзывом, три тарифных плана с переключателем месяц/год, сетку отзывов клиентов, FAQ-аккордеон и CTA-блок.
+
+`"tags": ["saas", "dark", "ai", "developer", "pricing", "testimonials", "animations"]`
