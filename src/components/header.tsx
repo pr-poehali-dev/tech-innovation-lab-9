@@ -5,7 +5,7 @@ import { Menu } from "lucide-react"
 
 export function Header() {
   const navItems = [
-    { name: "Услуги", href: "#features-section" },
+    { name: "Каталог", href: "#features-section" },
     { name: "Тарифы", href: "#pricing-section" },
     { name: "Отзывы", href: "#testimonials-section" },
     { name: "FAQ", href: "#faq-section" },
@@ -43,7 +43,7 @@ export function Header() {
         <div className="flex items-center gap-4">
           <a href="#" className="hidden md:block">
             <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/90 px-6 py-2 rounded-full font-medium shadow-sm">
-              Начать проект
+              Оставить заявку
             </Button>
           </a>
           <Sheet>

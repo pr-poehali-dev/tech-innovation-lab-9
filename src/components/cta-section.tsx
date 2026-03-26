@@ -103,20 +103,31 @@ export function CTASection() {
       <div className="relative z-10 flex flex-col justify-start items-center gap-9 max-w-4xl mx-auto">
         <div className="flex flex-col justify-start items-center gap-4 text-center">
           <h2 className="text-foreground text-4xl md:text-5xl lg:text-[68px] font-semibold leading-tight md:leading-tight lg:leading-[76px] break-words max-w-[600px]">
-            Начните проект с Red1dark Studio
+            Готовы обсудить ваш проект?
           </h2>
           <p className="text-muted-foreground text-sm md:text-base font-medium leading-[18.20px] md:leading-relaxed break-words max-w-2xl">
-            Расскажите о своей задаче — я подберу оптимальное решение, назову сроки и стоимость. Первая консультация бесплатно.
+            Напишите в Telegram или на почту — расскажите задачу, получите ТЗ и смету. Первая консультация бесплатно.
           </p>
         </div>
-        <a href="#">
-          <Button
-            className="px-[30px] py-2 bg-secondary text-secondary-foreground text-base font-medium leading-6 rounded-[99px] shadow-[0px_0px_0px_4px_rgba(255,255,255,0.13)] hover:bg-secondary/90 transition-all duration-200"
-            size="lg"
-          >
-            Начать проект
-          </Button>
-        </a>
+        <div className="flex flex-col sm:flex-row gap-3">
+          <a href="https://t.me/red1dark_studio" target="_blank" rel="noopener noreferrer">
+            <Button
+              className="px-[30px] py-2 bg-secondary text-secondary-foreground text-base font-medium leading-6 rounded-[99px] shadow-[0px_0px_0px_4px_rgba(255,255,255,0.13)] hover:bg-secondary/90 transition-all duration-200"
+              size="lg"
+            >
+              Написать в Telegram
+            </Button>
+          </a>
+          <a href="mailto:store.red-1-dark.ru@red-1-dark.ru">
+            <Button
+              variant="outline"
+              className="px-[30px] py-2 text-base font-medium leading-6 rounded-[99px] border-white/20 hover:bg-white/10 transition-all duration-200"
+              size="lg"
+            >
+              Написать на почту
+            </Button>
+          </a>
+        </div>
       </div>
     </section>
   )

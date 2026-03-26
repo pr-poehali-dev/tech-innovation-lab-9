@@ -54,41 +54,41 @@ const BentoCard = ({ title, description, Component, icon, badge }: BentoCardProp
 export function BentoSection() {
   const cards = [
     {
-      title: "AI‑агенты.",
-      description: "Автоматизация задач, генерация контента, умные интеграции под ваш бизнес.",
+      title: "Каталог услуг.",
+      description: "Список услуг с ценами, категориями и страницей каждой услуги.",
       Component: AiCodeReviews,
-      icon: "Bot",
+      icon: "LayoutGrid",
     },
     {
-      title: "Telegram‑боты.",
-      description: "От простых информационных до сложных многоуровневых экосистем с оплатой.",
+      title: "Заявки и корзина.",
+      description: "Добавление услуги, форма заявки, авторизация перед отправкой.",
       Component: RealtimeCodingPreviews,
-      icon: "MessageCircle",
+      icon: "ShoppingCart",
     },
     {
-      title: "Веб‑разработка.",
-      description: "Сайты, панели управления, личные кабинеты и SaaS-платформы под ключ.",
+      title: "Личный кабинет.",
+      description: "Профиль, история заявок, настройки, привязка OAuth-аккаунтов.",
       Component: OneClickIntegrationsIllustration,
-      icon: "Globe",
+      icon: "User",
     },
     {
-      title: "Игры.",
-      description: "Симуляторы, псевдо‑3D механики, публикация в RuStore и Google Play.",
+      title: "Панель продавца.",
+      description: "Управление услугами, клиентами и заявками в одном интерфейсе.",
       Component: MCPConnectivityIllustration,
-      icon: "Gamepad2",
-      badge: "Planet Builder Mini",
+      icon: "BarChart2",
+      badge: "Seller",
     },
     {
-      title: "Дизайн и брендинг.",
-      description: "Логотипы, фирменный стиль, UI-кит и карточки для соцсетей.",
+      title: "Авторизация.",
+      description: "Email + OTP, VK, Yandex, Telegram OAuth. CSRF, Honeypot, reCAPTCHA.",
       Component: ParallelCodingAgents,
-      icon: "Palette",
+      icon: "ShieldCheck",
     },
     {
-      title: "Документация.",
-      description: "ТЗ, EULA, архитектура систем, технические спецификации и регламенты.",
+      title: "Платежи и юридическое.",
+      description: "ЮKassa, CloudPayments, Оферта, условия оплаты и возврата.",
       Component: EasyDeployment,
-      icon: "FileText",
+      icon: "CreditCard",
     },
   ]
 
@@ -99,10 +99,10 @@ export function BentoSection() {
         <div className="self-stretch py-8 md:py-14 flex flex-col justify-center items-center gap-2 z-10">
           <div className="flex flex-col justify-start items-center gap-4">
             <h2 className="w-full max-w-[655px] text-center text-foreground text-4xl md:text-6xl font-semibold leading-tight md:leading-[66px]">
-              Полный цикл цифровой разработки
+              Платформа цифровых услуг
             </h2>
             <p className="w-full max-w-[600px] text-center text-muted-foreground text-lg md:text-xl font-medium leading-relaxed">
-              Один исполнитель — все задачи. AI‑агенты, боты, игры, веб-сервисы, дизайн и документация в одном месте.
+              Каталог, заявки, авторизация, панель продавца и платежи — всё готово к работе.
             </p>
           </div>
         </div>

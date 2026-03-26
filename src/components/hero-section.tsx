@@ -438,22 +438,22 @@ export function HeroSection() {
 
       <div className="relative z-10 space-y-4 md:space-y-5 lg:space-y-6 mb-6 md:mb-7 lg:mb-9 max-w-md md:max-w-[500px] lg:max-w-[588px] mt-16 md:mt-[120px] lg:mt-[160px] px-4">
         <h1 className="text-foreground text-3xl md:text-4xl lg:text-6xl font-semibold leading-tight">
-          Red1dark Studio — экосистема AI‑агентов, игр и цифровых сервисов
+          Red1dark Studio — цифровые услуги под ключ
         </h1>
         <p className="text-muted-foreground text-base md:text-base lg:text-lg font-medium leading-relaxed max-w-lg mx-auto">
-          Создаю интеллектуальные решения: от Telegram‑ботов и веб‑платформ до игр и AI‑агентов. Технологии, дизайн и разработка — в одном бренде.
+          Разработка сайтов, Telegram‑ботов, AI‑агентов и игр. Приём заявок онлайн, авторизация, каталог услуг и личный кабинет — всё в одной платформе.
         </p>
       </div>
 
       <div className="relative z-10 flex flex-col sm:flex-row gap-3">
-        <a href="#">
+        <a href="#features-section">
           <Button className="bg-secondary text-secondary-foreground hover:bg-secondary/90 px-8 py-3 rounded-full font-medium text-base shadow-lg ring-1 ring-white/10">
-            Начать проект
+            Каталог услуг
           </Button>
         </a>
-        <a href="#features-section">
+        <a href="#pricing-section">
           <Button variant="outline" className="px-8 py-3 rounded-full font-medium text-base border-white/20 hover:bg-white/10">
-            Посмотреть витрину услуг
+            Тарифы
           </Button>
         </a>
       </div>

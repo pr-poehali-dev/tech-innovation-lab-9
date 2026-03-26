@@ -8,7 +8,7 @@ export function SocialProof() {
   return (
     <section className="self-stretch py-16 flex flex-col justify-center items-center gap-10 overflow-hidden">
       <div className="text-center text-gray-300 text-sm font-medium leading-tight">
-        Проверено временем и клиентами
+        Самозанятый разработчик · Удомля · ИНН 691643385874
       </div>
       <div className="flex flex-col sm:flex-row gap-10 sm:gap-20 justify-center items-center">
         {stats.map((stat) => (

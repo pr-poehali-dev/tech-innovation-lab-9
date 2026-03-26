@@ -9,13 +9,13 @@ export function PricingSection() {
     {
       name: "Базовый",
       monthlyPrice: "от 5 000 ₽",
-      annualPrice: "от 4 000 ₽",
-      description: "Простые задачи и первые проекты.",
+      annualPrice: "от 5 000 ₽",
+      description: "Простые цифровые задачи.",
       features: [
+        "Лендинг или простой сайт",
         "Telegram-бот начального уровня",
-        "Малый информационный сайт",
-        "Простой дизайн / логотип",
         "Базовое ТЗ",
+        "Оплата по реквизитам / QR",
         "Поддержка 1 месяц",
       ],
       buttonText: "Оставить заявку",
@@ -25,15 +25,15 @@ export function PricingSection() {
     {
       name: "Стандарт",
       monthlyPrice: "от 20 000 ₽",
-      annualPrice: "от 16 000 ₽",
-      description: "Средние проекты с AI и интеграциями.",
+      annualPrice: "от 20 000 ₽",
+      description: "Платформа с авторизацией и заявками.",
       features: [
-        "AI-интеграции и умные боты",
-        "Веб-панель или личный кабинет",
-        "Фирменный стиль под ключ",
+        "Каталог услуг с ценами",
+        "Авторизация (Email+OTP, VK, Yandex, TG)",
+        "Личный кабинет и история заявок",
+        "Панель продавца",
         "Полное ТЗ и архитектура",
         "Поддержка 3 месяца",
-        "Приоритетная коммуникация",
       ],
       buttonText: "Оставить заявку",
       buttonClass:
@@ -43,13 +43,14 @@ export function PricingSection() {
     {
       name: "Премиум",
       monthlyPrice: "от 60 000 ₽",
-      annualPrice: "от 50 000 ₽",
-      description: "Сложные экосистемы полного цикла.",
+      annualPrice: "от 60 000 ₽",
+      description: "Полный цикл с платежами и AI.",
       features: [
-        "AI-агенты и экосистемы",
-        "Игры и геймификация",
-        "Полный цикл разработки",
-        "Выделенный менеджер",
+        "Интеграция ЮKassa / CloudPayments",
+        "AI-агенты и Telegram-уведомления",
+        "Админ-панель + RBAC роли",
+        "Аналитика и логи",
+        "Договор оказания услуг",
         "Поддержка 6 месяцев",
       ],
       buttonText: "Обсудить проект",
@@ -63,10 +64,10 @@ export function PricingSection() {
       <div className="self-stretch relative flex flex-col justify-center items-center gap-2 py-0">
         <div className="flex flex-col justify-start items-center gap-4">
           <h2 className="text-center text-foreground text-4xl md:text-5xl font-semibold leading-tight md:leading-[40px]">
-            Тарифы под любой проект
+            Тарифы на разработку
           </h2>
           <p className="self-stretch text-center text-muted-foreground text-sm font-medium leading-tight">
-            От простого бота до сложной AI-экосистемы — <br /> найдём формат под вашу задачу и бюджет.
+            От лендинга до полноценной платформы с авторизацией, <br /> платежами и AI — выберите подходящий формат.
           </p>
         </div>
         <div className="pt-4">
@@ -88,7 +89,7 @@ export function PricingSection() {
               <span
                 className={`text-center text-sm font-medium leading-tight ${!isAnnual ? "text-accent-foreground" : "text-zinc-400"}`}
               >
-                Ежемесячно
+                Поддержка
               </span>
             </button>
           </div>
