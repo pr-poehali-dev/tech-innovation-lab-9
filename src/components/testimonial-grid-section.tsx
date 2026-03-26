@@ -1,57 +1,57 @@
 const testimonials = [
   {
     quote:
-      "Подсказки NeuralCode в реальном времени - это как иметь сеньор-разработчика, который проверяет каждую строку кода. Точность рекомендаций повысила качество кода и сократила время на ревью.",
-    name: "Анна Петрова",
-    company: "TechFlow Solutions",
+      "Заказал AI-агента для обработки входящих заявок — результат превзошёл ожидания. Агент сам классифицирует, отвечает и передаёт менеджеру только горячих клиентов. Конверсия выросла на 40%.",
+    name: "Антон В.",
+    company: "Онлайн-школа",
     avatar: "/images/avatars/annette-black.png",
     type: "large-teal",
   },
   {
     quote:
-      "Интеграция NeuralCode прошла гладко, а MCP-подключения сэкономили нам дни работы над конфигурацией.",
-    name: "Елена Смирнова",
-    company: "Quantum Dynamics",
+      "Получил Telegram-бота за 5 дней. Всё работает чётко, без багов. Поддержка оперативная.",
+    name: "Кирилл М.",
+    company: "Малый бизнес",
     avatar: "/images/avatars/dianne-russell.png",
     type: "small-dark",
   },
   {
     quote:
-      "Мульти-агентная функция NeuralCode изменила всё. Теперь мы исправляем сложные баги за часы, а не за целые спринты.",
-    name: "Максим Волков",
-    company: "Alpine Ventures",
+      "Planet Builder Mini — крутая концепция! Жду полную версию. Видно, что автор вкладывает душу в проект.",
+    name: "Ярослав Р.",
+    company: "Геймер / тестировщик",
     avatar: "/images/avatars/cameron-williamson.png",
     type: "small-dark",
   },
   {
     quote:
-      "Больше никакого жонглирования инструментами. NeuralCode объединил все интеграции в одном месте и упростил весь рабочий процесс.",
-    name: "Дмитрий Козлов",
-    company: "Stellar Analytics",
+      "Заказал ТЗ и архитектуру для своего стартапа. Получил чёткий документ, по которому любая команда сможет работать.",
+    name: "Сергей Т.",
+    company: "Стартап-основатель",
     avatar: "/images/avatars/robert-fox.png",
     type: "small-dark",
   },
   {
     quote:
-      "Мы начали с бесплатного плана, но через неделю перешли на Про. Теперь не представляем работу без него.",
-    name: "Ольга Новикова",
-    company: "Nova Industries",
+      "Веб-панель сдал точно в срок и с понятным интерфейсом. Клиенты довольны — и мы тоже.",
+    name: "Наталья Ш.",
+    company: "Агентство недвижимости",
     avatar: "/images/avatars/darlene-robertson.png",
     type: "small-dark",
   },
   {
     quote:
-      "Совместная работа стала лёгкой. С превью NeuralCode в реальном времени парное программирование стало быстрее и продуктивнее.",
-    name: "Игорь Соколов",
-    company: "CloudBridge Tech",
+      "Обратился за логотипом, в итоге получил полный фирменный стиль. Очень доволен качеством и скоростью.",
+    name: "Илья Б.",
+    company: "Freelance-дизайнер",
     avatar: "/images/avatars/cody-fisher.png",
     type: "small-dark",
   },
   {
     quote:
-      "Деплой с NeuralCode - это не просто, это бесшовно. От кода до продакшена за минуты без головной боли с пайплайнами.",
-    name: "Мария Федорова",
-    company: "Nexus Software",
+      "Red1dark Studio — это не просто разработчик, это партнёр. Понимает задачу с полуслова, предлагает решения, которые я сам не додумался бы запросить.",
+    name: "Виктория Л.",
+    company: "E-commerce проект",
     avatar: "/images/avatars/albert-flores.png",
     type: "large-light",
   },
@@ -139,11 +139,11 @@ export function TestimonialGridSection() {
       <div className="self-stretch py-6 md:py-8 lg:py-14 flex flex-col justify-center items-center gap-2">
         <div className="flex flex-col justify-start items-center gap-4">
           <h2 className="text-center text-foreground text-3xl md:text-4xl lg:text-[40px] font-semibold leading-tight md:leading-tight lg:leading-[40px]">
-            Разработка без усилий
+            Клиенты говорят сами
           </h2>
           <p className="self-stretch text-center text-muted-foreground text-sm md:text-sm lg:text-base font-medium leading-[18.20px] md:leading-relaxed lg:leading-relaxed">
-            {"Узнайте, как разработчики быстрее выпускают продукты, работают слаженно"} <br />{" "}
-            {"и создают код уверенно с помощью мощных ИИ-инструментов NeuralCode"}
+            {"Реальные отзывы от людей, которые уже работают с Red1dark Studio"} <br />{" "}
+            {"и получили результат, превзошедший их ожидания"}
           </p>
         </div>
       </div>

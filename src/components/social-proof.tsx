@@ -1,19 +1,21 @@
 export function SocialProof() {
+  const stats = [
+    { value: "50+", label: "проектов выполнено" },
+    { value: "3+", label: "года разработки" },
+    { value: "100%", label: "кастомные решения" },
+  ]
+
   return (
-    <section className="self-stretch py-16 flex flex-col justify-center items-center gap-6 overflow-hidden">
+    <section className="self-stretch py-16 flex flex-col justify-center items-center gap-10 overflow-hidden">
       <div className="text-center text-gray-300 text-sm font-medium leading-tight">
-        Нам доверяют растущие стартапы
+        Проверено временем и клиентами
       </div>
-      <div className="self-stretch grid grid-cols-2 md:grid-cols-4 gap-8 justify-items-center">
-        {Array.from({ length: 8 }).map((_, i) => (
-          <img
-            key={i}
-            src={`/logos/logo0${i + 1}.svg`}
-            alt={`Company Logo ${i + 1}`}
-            width={400}
-            height={120}
-            className="w-full max-w-[400px] h-auto object-contain grayscale opacity-70"
-          />
+      <div className="flex flex-col sm:flex-row gap-10 sm:gap-20 justify-center items-center">
+        {stats.map((stat) => (
+          <div key={stat.label} className="flex flex-col items-center gap-2">
+            <span className="text-foreground text-5xl font-semibold leading-tight">{stat.value}</span>
+            <span className="text-muted-foreground text-sm font-medium">{stat.label}</span>
+          </div>
         ))}
       </div>
     </section>

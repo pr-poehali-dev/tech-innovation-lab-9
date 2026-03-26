@@ -7,53 +7,52 @@ export function PricingSection() {
 
   const pricingPlans = [
     {
-      name: "Старт",
-      monthlyPrice: "0 ₽",
-      annualPrice: "0 ₽",
-      description: "Для начинающих разработчиков.",
+      name: "Базовый",
+      monthlyPrice: "от 5 000 ₽",
+      annualPrice: "от 4 000 ₽",
+      description: "Простые задачи и первые проекты.",
       features: [
-        "Подсказки кода в реальном времени",
-        "Базовые интеграции",
-        "Одно MCP-подключение",
-        "До 2 ИИ-агентов",
-        "Деплой с брендингом NeuralCode",
+        "Telegram-бот начального уровня",
+        "Малый информационный сайт",
+        "Простой дизайн / логотип",
+        "Базовое ТЗ",
+        "Поддержка 1 месяц",
       ],
-      buttonText: "Начать",
+      buttonText: "Оставить заявку",
       buttonClass:
         "bg-zinc-300 shadow-[0px_1px_1px_-0.5px_rgba(16,24,40,0.20)] outline outline-0.5 outline-[#1e29391f] outline-offset-[-0.5px] text-gray-800 text-shadow-[0px_1px_1px_rgba(16,24,40,0.08)] hover:bg-zinc-400",
     },
     {
-      name: "Про",
-      monthlyPrice: "1 990 ₽",
-      annualPrice: "1 590 ₽",
-      description: "Для профессионалов.",
+      name: "Стандарт",
+      monthlyPrice: "от 20 000 ₽",
+      annualPrice: "от 16 000 ₽",
+      description: "Средние проекты с AI и интеграциями.",
       features: [
-        "Расширенные превью в реальном времени",
-        "Безлимитные интеграции",
-        "Несколько MCP-подключений",
-        "До 10 ИИ-агентов одновременно",
-        "Командный чат и совместная работа",
-        "Продвинутая интеграция с Git",
-        "Приоритетная поддержка",
+        "AI-интеграции и умные боты",
+        "Веб-панель или личный кабинет",
+        "Фирменный стиль под ключ",
+        "Полное ТЗ и архитектура",
+        "Поддержка 3 месяца",
+        "Приоритетная коммуникация",
       ],
-      buttonText: "Подключить",
+      buttonText: "Оставить заявку",
       buttonClass:
         "bg-primary-foreground shadow-[0px_1px_1px_-0.5px_rgba(16,24,40,0.20)] text-primary text-shadow-[0px_1px_1px_rgba(16,24,40,0.08)] hover:bg-primary-foreground/90",
       popular: true,
     },
     {
-      name: "Бизнес",
-      monthlyPrice: "19 900 ₽",
-      annualPrice: "15 900 ₽",
-      description: "Решения для команд.",
+      name: "Премиум",
+      monthlyPrice: "от 60 000 ₽",
+      annualPrice: "от 50 000 ₽",
+      description: "Сложные экосистемы полного цикла.",
       features: [
-        "Персональный менеджер",
-        "Безлимитные MCP-кластеры",
-        "Безлимитные ИИ-агенты",
-        "Корпоративная безопасность",
-        "Приоритетный деплой и SLA",
+        "AI-агенты и экосистемы",
+        "Игры и геймификация",
+        "Полный цикл разработки",
+        "Выделенный менеджер",
+        "Поддержка 6 месяцев",
       ],
-      buttonText: "Связаться",
+      buttonText: "Обсудить проект",
       buttonClass:
         "bg-secondary shadow-[0px_1px_1px_-0.5px_rgba(16,24,40,0.20)] text-secondary-foreground text-shadow-[0px_1px_1px_rgba(16,24,40,0.08)] hover:bg-secondary/90",
     },
@@ -64,10 +63,10 @@ export function PricingSection() {
       <div className="self-stretch relative flex flex-col justify-center items-center gap-2 py-0">
         <div className="flex flex-col justify-start items-center gap-4">
           <h2 className="text-center text-foreground text-4xl md:text-5xl font-semibold leading-tight md:leading-[40px]">
-            Тарифы для каждого
+            Тарифы под любой проект
           </h2>
           <p className="self-stretch text-center text-muted-foreground text-sm font-medium leading-tight">
-            Выберите план под ваш стиль работы: от начинающих разработчиков <br /> до растущих команд и крупных организаций.
+            От простого бота до сложной AI-экосистемы — <br /> найдём формат под вашу задачу и бюджет.
           </p>
         </div>
         <div className="pt-4">
@@ -79,7 +78,7 @@ export function PricingSection() {
               <span
                 className={`text-center text-sm font-medium leading-tight ${isAnnual ? "text-accent-foreground" : "text-zinc-400"}`}
               >
-                За год
+                За проект
               </span>
             </button>
             <button
@@ -89,7 +88,7 @@ export function PricingSection() {
               <span
                 className={`text-center text-sm font-medium leading-tight ${!isAnnual ? "text-accent-foreground" : "text-zinc-400"}`}
               >
-                За месяц
+                Ежемесячно
               </span>
             </button>
           </div>
@@ -163,7 +162,7 @@ export function PricingSection() {
               >
                 <div className="px-1.5 flex justify-center items-center gap-2">
                   <span
-                    className={`text-center text-sm font-medium leading-tight ${plan.name === "Старт" ? "text-gray-800" : plan.name === "Про" ? "text-primary" : "text-zinc-950"}`}
+                    className={`text-center text-sm font-medium leading-tight ${plan.name === "Базовый" ? "text-gray-800" : plan.name === "Стандарт" ? "text-primary" : "text-zinc-950"}`}
                   >
                     {plan.buttonText}
                   </span>
@@ -174,7 +173,7 @@ export function PricingSection() {
               <div
                 className={`self-stretch text-sm font-medium leading-tight ${plan.popular ? "text-primary-foreground/70" : "text-muted-foreground"}`}
               >
-                {plan.name === "Старт" ? "Начните сегодня:" : "Всё из Старт плюс:"}
+                {plan.name === "Базовый" ? "Что входит:" : plan.name === "Стандарт" ? "Всё из Базового плюс:" : "Всё из Стандарта плюс:"}
               </div>
               <div className="self-stretch flex flex-col justify-start items-start gap-3">
                 {plan.features.map((feature) => (
